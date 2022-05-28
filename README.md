@@ -7,7 +7,7 @@ This project includes a home page where user can create a room and can share roo
 
 ```
 $ git clone https://github.com/MrHacker26/realtime-editor
-$ cd reatime-editor
+$ cd realtime-editor
 $ npm start
 ```
 # Screenshots
