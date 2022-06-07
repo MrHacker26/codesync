@@ -22,7 +22,10 @@ footer {
 footer a {
     color: #4aee88;
 }
-
+#githublogo {
+        -webkit-filter: invert(1);
+        filter: invert(1);
+}
 .inputGroup {
     display: flex;
     flex-direction: column;
@@ -31,6 +34,10 @@ footer a {
 .mainLabel {
     margin-bottom: 20px;
     margin-top: 0;
+    font-style: italic;
+    background-color: #c3473e;
+    border-radius: 3px;
+    display: inline-flex;
 }
 
 .homePageLogo {
@@ -67,7 +74,7 @@ footer a {
 }
 
 .joinBtn:hover {
-    background: #2b824c;
+    background: #288f50;
 }
 .createInfo {
     margin: 0 auto;

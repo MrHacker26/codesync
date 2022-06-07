@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { v4 as uuidV4 } from "uuid";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-
+import GitHub from "../components/icons/github.png"
 const Home = () => {
   const navigate = useNavigate();
 
@@ -42,7 +42,7 @@ const Home = () => {
           src="/code-sync.png"
           alt="code-sync-logo"
         />
-        <h4 className="mainLabel">Paste invitation ROOM ID</h4>
+        <h3 className="mainLabel"><span>Paste invitation ROOM ID - </span></h3>
         <div className="inputGroup">
           <input
             type="text"
@@ -73,8 +73,9 @@ const Home = () => {
       </div>
       <footer>
         <h4>
-          Built with 💛&nbsp;by &nbsp;
-          <a href="https://github.com/MrHacker26">Tarun Joshi</a>
+          Built with 🧡&nbsp;by &nbsp;
+          <a href="https://github.com/MrHacker26">Tarun Joshi &nbsp;<img id="githublogo" src={GitHub} width="20px"
+         height="20"/></a>
         </h4>
       </footer>
     </div>
