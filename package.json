@@ -21,8 +21,12 @@
   },
   "scripts": {
     "start:front": "react-scripts start",
+<<<<<<< HEAD
     "start": "npm run build && npm run server:prod",
+=======
+>>>>>>> e801876dfc043b843c1c4d40733b0b4696a460bf
     "build": "react-scripts build",
+    "start": "npm run build && npm run server:prod",
     "server:dev": "nodemon server.js",
     "server:prod": "node server.js",
     "test": "react-scripts test",
