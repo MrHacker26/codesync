@@ -27,7 +27,7 @@ $ npm start
 
 
 #### For live demo
-[Link](https://realtime-codesync.herokuapp.com/)
+[Link](https://codesync-tarun.vercel.app/)
 
 
 ### If you found this project helpful, 
